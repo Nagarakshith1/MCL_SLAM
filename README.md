@@ -1,4 +1,4 @@
-# Monte Carlo LOcalization Based SLAM
+# Monte Carlo Localization Based SLAM
 The data consists of the lidar scans from a THOR-OP Humanoid Robot. The lidar data is transoformed into the map co-ordinates by applying suitable transformations and the ground plane points are filtered. Suitable number of particles are initialized which indicate the pose of the robot. 
 Based on the paricle filter approach the best particle with maximum correlation is chosen and the log odds of the map is updated.
 
